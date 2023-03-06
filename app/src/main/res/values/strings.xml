@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Expensis</string>
+    <string name="treatment">Traitement...</string>
+    <string name="home">Accueil</string>
+    <string name="expenses">Dépenses</string>
+    <string name="profile">Profil</string>
+    <string name="params">Paramètres</string>
+    <string name="night_mode">Night mode</string>
+    <string name="categories">Categories</string>
+
+</resources>
