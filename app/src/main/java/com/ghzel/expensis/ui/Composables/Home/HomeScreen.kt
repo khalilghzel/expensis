@@ -91,24 +91,3 @@ fun HomeScreen(
 }
 
 
-class NavShape(
-    private val widthOffset: Dp,
-    private val scale: Float
-) : Shape {
-
-    override fun createOutline(
-        size: Size,
-        layoutDirection: LayoutDirection,
-        density: Density
-    ): Outline {
-        return Outline.Rectangle(
-            Rect(
-                Offset.Zero,
-                Offset(
-                    size.width * scale + with(density) { widthOffset.toPx() },
-                    size.height
-                )
-            )
-        )
-    }
-}
