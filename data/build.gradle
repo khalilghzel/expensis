@@ -36,6 +36,7 @@ android {
         baseline = file("lint-baseline.xml")
     }
     lintOptions {
+        lintConfig file('lint.xml')
         checkAllWarnings true
         warningsAsErrors true
         abortOnError false
