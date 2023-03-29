@@ -10,6 +10,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import javax.inject.Singleton
 
 @Module
@@ -17,6 +18,7 @@ import javax.inject.Singleton
 class SettingsModule {
 
 
+    @OptIn(ExperimentalCoroutinesApi::class)
     @Singleton
     @Provides
     fun provideProductRepository(userData: UserData): UpdateNightModeRepository {
