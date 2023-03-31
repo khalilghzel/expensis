@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>ClassNaming:NavItem.kt$NavItem$expenses : NavItem</ID>
+    <ID>LongMethod:Categories_Screen.kt$@SuppressLint("Range") @OptIn(ExperimentalPermissionsApi::class) @Composable fun Categories_Screen(navController: NavController)</ID>
+    <ID>LongMethod:DialogCreateCategory.kt$@Composable fun DialogCreateCategory(onDismiss: () -&gt; Unit, onDelete: () -&gt; Unit, onContinue: () -&gt; Unit)</ID>
+    <ID>LongMethod:DialogDeleteCategory.kt$@Composable fun DialogDeleteCategory(category : Category, onDismiss: () -&gt; Unit, onDelete: (Category) -&gt; Unit, onContinue: () -&gt; Unit)</ID>
+    <ID>LongMethod:Drawer_Content_Screen.kt$@Composable fun Drawer_Content_Screen( onMenueClickListener: (String) -&gt; Unit )</ID>
+    <ID>MagicNumber:BottomNavBar.kt$0.2f</ID>
+    <ID>MagicNumber:CategoriesViewModel.kt$CategoriesViewModel$5000</ID>
+    <ID>MagicNumber:Categories_Screen.kt$50</ID>
+    <ID>MagicNumber:UsedColors.kt$0x80555555</ID>
+    <ID>MagicNumber:UsedColors.kt$0xD97070E5</ID>
+    <ID>MagicNumber:UsedColors.kt$0xD9EE5FAB</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFF181920</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFF242333</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFF7070e5</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFF828282</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFE258EC</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFEE503C</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFEEEEEE</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFEF5350</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFcdccfd</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFd3d2d7</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFee5fab</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFf4cdec</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFf5f1f9</ID>
+    <ID>MagicNumber:UsedColors.kt$0xFFf6e9f2</ID>
+    <ID>MaxLineLength:DialogDeleteCategory.kt$fun</ID>
+    <ID>MaxLineLength:Drawer_Content_Screen.kt$painter = rememberAsyncImagePainter("https://media.licdn.com/dms/image/C4E03AQFUYlwpg1EwvA/profile-displayphoto-shrink_800_800/0/1579876643789?e=1681344000&amp;v=beta&amp;t=PED7JYZq_Q4UrU7Lyxb4Vb4m2OA7o23fqg74TrgTx_o")</ID>
+    <ID>NewLineAtEndOfFile:AppColors.kt$com.ghzel.expensis.ui.theme.AppColors.kt</ID>
+    <ID>NewLineAtEndOfFile:Card_Home_Comp.kt$com.ghzel.expensis.ui.Composables.home_screen.Card_Home_Comp.kt</ID>
+    <ID>NewLineAtEndOfFile:Categories_Screen.kt$com.ghzel.expensis.ui.Composables.params.categories.Categories_Screen.kt</ID>
+    <ID>NewLineAtEndOfFile:Drawer_Content_Screen.kt$com.ghzel.expensis.ui.Composables.Home.Components.Drawer_Content_Screen.kt</ID>
+    <ID>NewLineAtEndOfFile:ExampleUnitTest.kt$com.ghzel.expensis.ExampleUnitTest.kt</ID>
+    <ID>NewLineAtEndOfFile:Expenses_Screen.kt$com.ghzel.expensis.ui.Composables.expenses.Expenses_Screen.kt</ID>
+    <ID>NewLineAtEndOfFile:ExpensisApplication.kt$com.ghzel.expensis.ExpensisApplication.kt</ID>
+    <ID>NewLineAtEndOfFile:HomeHolderViewModel.kt$com.ghzel.expensis.ui.Composables.Home.HomeHolderViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:HomeScreen.kt$com.ghzel.expensis.ui.Composables.home_screen.HomeScreen.kt</ID>
+    <ID>NewLineAtEndOfFile:HomeViewModel.kt$com.ghzel.expensis.ui.Composables.home_screen.HomeViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:NavItem.kt$com.ghzel.expensis.ui.theme.NavItem.kt</ID>
+    <ID>NewLineAtEndOfFile:Parmas_Screen.kt$com.ghzel.expensis.ui.Composables.params.Parmas_Screen.kt</ID>
+    <ID>NewLineAtEndOfFile:Profile_Screen.kt$com.ghzel.expensis.ui.Composables.profil.Profile_Screen.kt</ID>
+    <ID>NewLineAtEndOfFile:UsedColors.kt$com.ghzel.expensis.ui.theme.UsedColors.kt</ID>
+    <ID>NewLineAtEndOfFile:UsedFonts.kt$com.ghzel.expensis.ui.theme.UsedFonts.kt</ID>
+    <ID>PackageNaming:BottomNavBar.kt$package com.ghzel.expensis.ui.Composables.Home.Components</ID>
+    <ID>PackageNaming:Card_Home_Comp.kt$package com.ghzel.expensis.ui.Composables.home_screen</ID>
+    <ID>PackageNaming:CategoriesDataState.kt$package com.ghzel.expensis.ui.Composables.params.categories</ID>
+    <ID>PackageNaming:CategoriesViewModel.kt$package com.ghzel.expensis.ui.Composables.params.categories</ID>
+    <ID>PackageNaming:Categories_Screen.kt$package com.ghzel.expensis.ui.Composables.params.categories</ID>
+    <ID>PackageNaming:CategoryList.kt$package com.ghzel.expensis.ui.Composables.params.categories.components</ID>
+    <ID>PackageNaming:DialogCreateCategory.kt$package com.ghzel.expensis.ui.Composables.params.categories.components</ID>
+    <ID>PackageNaming:DialogDeleteCategory.kt$package com.ghzel.expensis.ui.Composables.params.categories.components</ID>
+    <ID>PackageNaming:Drawer_Content_Screen.kt$package com.ghzel.expensis.ui.Composables.Home.Components</ID>
+    <ID>PackageNaming:Expenses_Screen.kt$package com.ghzel.expensis.ui.Composables.expenses</ID>
+    <ID>PackageNaming:HomeHolderViewModel.kt$package com.ghzel.expensis.ui.Composables.Home</ID>
+    <ID>PackageNaming:HomeScreen.kt$package com.ghzel.expensis.ui.Composables.Home</ID>
+    <ID>PackageNaming:HomeScreen.kt$package com.ghzel.expensis.ui.Composables.home_screen</ID>
+    <ID>PackageNaming:HomeViewModel.kt$package com.ghzel.expensis.ui.Composables.home_screen</ID>
+    <ID>PackageNaming:ItemCategory.kt$package com.ghzel.expensis.ui.Composables.params.categories.components</ID>
+    <ID>PackageNaming:Parmas_Screen.kt$package com.ghzel.expensis.ui.Composables.params</ID>
+    <ID>PackageNaming:Profile_Screen.kt$package com.ghzel.expensis.ui.Composables.profil</ID>
+    <ID>PackageNaming:Toolbar.kt$package com.ghzel.expensis.ui.Composables.Home.Components</ID>
+    <ID>UnusedPrivateMember:Categories_Screen.kt$navController: NavController</ID>
+    <ID>UnusedPrivateMember:Categories_Screen.kt$val context = LocalContext.current</ID>
+    <ID>UnusedPrivateMember:DialogCreateCategory.kt$onDelete: () -&gt; Unit</ID>
+    <ID>UnusedPrivateMember:DialogCreateCategory.kt$val context = LocalContext.current</ID>
+    <ID>UnusedPrivateMember:DialogDeleteCategory.kt$onContinue: () -&gt; Unit</ID>
+    <ID>UnusedPrivateMember:DialogDeleteCategory.kt$val context = LocalContext.current</ID>
+    <ID>UnusedPrivateMember:Expenses_Screen.kt$navController: NavController</ID>
+    <ID>UnusedPrivateMember:HomeScreen.kt$navController: NavController</ID>
+    <ID>UnusedPrivateMember:Parmas_Screen.kt$navController: NavController</ID>
+    <ID>UnusedPrivateMember:Profile_Screen.kt$navController: NavController</ID>
+    <ID>UnusedPrivateMember:Theme.kt$val selectedMode = remember { mutableStateOf(lightColor) }</ID>
+    <ID>VariableNaming:CategoriesViewModel.kt$CategoriesViewModel$val _stateList: MutableState&lt;List&lt;Category&gt;&gt; = mutableStateOf(listOf())</ID>
+    <ID>WildcardImport:BottomNavBar.kt$import com.ghzel.expensis.ui.theme.*</ID>
+    <ID>WildcardImport:Card_Home_Comp.kt$import androidx.compose.foundation.layout.*</ID>
+    <ID>WildcardImport:Card_Home_Comp.kt$import com.ghzel.expensis.ui.theme.*</ID>
+    <ID>WildcardImport:Categories_Screen.kt$import androidx.compose.runtime.*</ID>
+    <ID>WildcardImport:CircularIndeterminateProgressBar.kt$import androidx.compose.foundation.layout.*</ID>
+    <ID>WildcardImport:DefaultSnackbar.kt$import androidx.compose.material.*</ID>
+    <ID>WildcardImport:DialogCreateCategory.kt$import androidx.compose.foundation.layout.*</ID>
+    <ID>WildcardImport:DialogCreateCategory.kt$import androidx.compose.material.*</ID>
+    <ID>WildcardImport:DialogDeleteCategory.kt$import androidx.compose.foundation.layout.*</ID>
+    <ID>WildcardImport:DialogDeleteCategory.kt$import androidx.compose.material.*</ID>
+    <ID>WildcardImport:Drawer_Content_Screen.kt$import androidx.compose.foundation.layout.*</ID>
+    <ID>WildcardImport:Drawer_Content_Screen.kt$import androidx.compose.material.*</ID>
+    <ID>WildcardImport:Drawer_Content_Screen.kt$import com.ghzel.expensis.ui.theme.*</ID>
+    <ID>WildcardImport:HomeScreen.kt$import androidx.compose.foundation.layout.*</ID>
+    <ID>WildcardImport:HomeScreen.kt$import com.ghzel.expensis.ui.routes.*</ID>
+    <ID>WildcardImport:ItemCategory.kt$import androidx.compose.foundation.layout.*</ID>
+    <ID>WildcardImport:ItemCategory.kt$import androidx.compose.material.*</ID>
+    <ID>WildcardImport:ItemCategory.kt$import com.ghzel.expensis.ui.theme.*</ID>
+    <ID>WildcardImport:Toolbar.kt$import androidx.compose.foundation.layout.*</ID>
+    <ID>WildcardImport:Toolbar.kt$import androidx.compose.material.*</ID>
+  </CurrentIssues>
+</SmellBaseline>
