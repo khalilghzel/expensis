@@ -21,7 +21,7 @@ plugins {
 detekt {
     version = "1.0.0.RC6-4"
     defaultProfile {
-        input = "$projectDir"
+        input = "$projectDir/checkstyle-result.xml"
         config = "$projectDir/default-detekt-config.yml" // Code style rules file.
         filters = ".*/res/.*,.*build/.*"
     }
